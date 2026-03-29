@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UrbanGeo | Geospatial Portfolio</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="./Assets/Logo1.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="nav">
+                    <img src="./Assets/Final Logo.png" alt="Logo" class="logo">
+
+                    <ul id="menu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#featured-project">Featured Projects</a></li>
+                        <li><a href="#my-projects">My Projects</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#client">Clients</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                    </ul>
+
+                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                </div>
+
+                <div class="header-content">
+
+                <div class="header-text">
+                    <h1 class="fade-in"><span>Krishna</span> Prasad Santra</h1>
+                    <h4 class="fade-in">
+                        <span class="GIS">GIS Analyst</span> | 
+                        <span class="Urban">Urban Planner</span> |
+                        <span class="webdeveloper">Web Developer</span>
+                    </h4>
+                    <h6 class="tagline fade-in"><i>
+                        "UrbanGeo — Planning Cities with Precision"
+                    </i>
+                    </h6>
+                </div>
+
+                <div class="header-button fade-in">
+                    <a class="btn btn-primary" href="#my-projects">View Projects</a>
+                    <a href="./Assets/Krishna_Prasad_Santra.pdf" download><button class="btn btn-primary cv-button">Download CV</button></a>
+                </div>
+
+                <p class="desc fade-in">
+                    I specialize in GIS-based spatial analysis and urban planning to design efficient, sustainable cities.
+                </p>
+
+            </div>
+            </div>
+        </div>
+            <!-------------about-------------->
+            <div id="about">
+                <div class="container">
+                    <div class="about-row">
+                        <div class="about-col-1">
+                            <img src="./Assets/My Image.jpg" alt="">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="about-me-sub-title">About Me</h1>
+                            <p> I am a self-driven GIS Analyst with a strong focus on <b>urban planning</b> and <b>thematic map preparation.</b>
+                                I bring solid expertise in spatial analysis, remote sensing–based analysis, and advanced
+                                geoprocessing using <b>ArcGIS Pro, AutoCAD Map 3D</b> and <b>Arcpy.</b>Along with my GIS skills, I
+                                have also learned frontend web development using <b>JavaScript, HTML, CSS,</b> and have created
+                                clean, user-friendly web pages.
+                            </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('experience', this)">Experience</p>
+                                <p class="tab-links" onclick="opentab('education', this)">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="experience">
+                                <ul>
+                                    <li>
+                                        <span>2025 - Current</span><br>GIS Analyst at
+                                        Falcon Reselient Infra Consultent
+                                    </li>
+                                    <li>
+                                        <span>2024 - 2025</span><br>Jr. GIS Analyst at
+                                        Deduce Technologies Pvt. Ltd.
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li>
+                                        <span>2023 - 2024</span><br>PG Diploma in Applied Geoinformatics from
+                                        Jadavpur University
+                                    </li>
+                                    <li>
+                                        <span>2021 - 2023</span><br>MSc. in Geography (RS and GIS) from
+                                        Midnapore City College
+                                    </li>
+                                    <li>
+                                        <span>2018 - 2021</span><br>Bsc. in Geography from
+                                        Midnapore College(Autonomous)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------My Skills-------------->
+
+            <div id="skills">
+                <div class="container">
+                    <h1 class="skill-sub-title">My Skills</h1>
+                    <div class="skill-container">
+                        <div class="outer-box">
+                            <img src="./Assets/GIS and Mapping.png" alt="">
+                            <div class="skill-element">
+                                <div>
+                                    <img src="./Assets/ArcGIS Pro.jpeg" alt="">
+                                    <p>Arc GIS / ArcGIS Pro</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/AutoCAD Map 3D.png" alt="">
+                                    <p>AutoCAD Map 3D</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Agsoft Metashape.jpeg" alt="">
+                                    <p>Agisoft Metashape</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Google Earth.png" alt="">
+                                    <p>Google Earth Pro</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Ms office.png" alt="">
+                                    <p>MS Office</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer-box">
+                            <img src="./Assets/Urban Planning.jpg" alt="">
+                            <div class="skill-element">
+                                <div>
+                                    <img src="./Assets/Landuse Planning.png" alt="">
+                                    <p>Landuse Planning</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Watershed Analysis.png" alt="">
+                                    <p>Watershed Analysis</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Spatial Analysis.png" alt="">
+                                    <p>Spatial Analysis</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Raster Analysis.png" alt="">
+                                    <p>Raster Analysis</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Transport Analysis.png" alt="">
+                                    <p>Transport Analysis</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer-box">
+                            <img src="./Assets/Technical Skills.png" alt="">
+                            <div class="skill-element">
+                                <div>
+                                    <img src="./Assets/Html.png" alt="">
+                                    <p>HTML5</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/CSS.png" alt="">
+                                    <p>CSS</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Java Script.png" alt="">
+                                    <p>Java Script</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Arcpy.png" alt="">
+                                    <p>Arcpy</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/Arcpy.png" alt="">
+                                    <p>Arcpy</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <!-------Featured Projects------->
+
+            <div id="featured-project">
+                <div id="featured-project-container">
+                    <h1 class="skill-sub-title">Featured Projects</h1>
+                    <div class="fp-card-container">
+                        <div class="fp-card-element">
+                            <div class="st-image">
+                                <img src="./Assets/Landuse Mapping.jpg" alt="">
+                            </div>
+                            <div class="nd-image">
+                                <div>
+                                    <h4>Land Use Mapping</h4>
+                                    <p>Zoning Analysis</p>
+                                    <a class="btn btn-success" href="http://127.0.0.1:5500/LULC%20Case%20study/index.html" target="_blank">View Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fp-card-element">
+                            <div class="st-image">
+                                <img src="./Assets/Contour and Slope Analysis.jpg" alt="">
+                            </div>
+                            <div class="nd-image">
+                                <div>
+                                    <h4>Contour and Slope Analysis</h4>
+                                    <p>Terrain Modeling</p>
+                                    <a class="btn btn-success" href="http://127.0.0.1:5500/Slope%20Analysis%20Case%20Study/index.html" target="_blank">View Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fp-card-element">
+                            <div class="st-image">
+                                <img src="./Assets/Settlement Analysis2.png" alt="">
+                            </div>
+                            <div class="nd-image">
+                                <div>
+                                    <h4>Urban Risk Analysis</h4>
+                                    <p>Risk Assessment</p>
+                                    <a class="btn btn-success" href="http://127.0.0.1:5500/Settlement%20Case%20Study/Index.html" target="_blank">View Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fp-card-element">
+                            <div class="st-image">
+                                <img src="./Assets/Site Suitability Analysis.jpg" alt="">
+                            </div>
+                            <div class="nd-image">
+                                <div>
+                                    <h4>Site Suitability Analysis</h4>
+                                    <p>Multi-Criteria Evaluation</p>
+                                    <a class="btn btn-success" href="http://127.0.0.1:5500/Suitable%20Site%20Case%20Study/Index.html" target="_blank">View Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------My Projects---------------->
+
+            <div id="my-projects">
+                <div class="my-project-container">
+                    <h1 class="skill-sub-title">My Projects</h1>
+                    <div class="mp-card-container">
+                        <div class="mp-card-element">
+                            <img src="./Assets/Hills.png" alt="">
+                                <h6>
+                                    Preparation of Concept Master Plan and Layout Approval for Hill-2, Hill-3 and WTC Panorama hill
+                                    Visakhapatnam District, Andhra Pradesh.
+                                </h6>
+                                <p>
+                                    Design of an 800-acre concept master plan integrating GIS-driven analysis with terrain-sensitive planning. 
+                                    The project focuses on optimized land use, infrastructure efficiency, and sustainable urban development strategies.
+                                </p>
+                        </div>
+                        <div class="mp-card-element">
+                            <img src="./Assets/Redi Port.png" alt="">
+                            <h6>
+                                Masterplan of Redi Port, Sindhudurg District, Maharashtra.
+                            </h6>
+                            <p id="redi-port">
+                                Design of a zonal master plan for Redi Port integrating strategic land use planning, port infrastructure development, 
+                                and efficient logistics connectivity to support sustainable regional growth.
+                            </p>
+                        </div>
+                        <div class="mp-card-element">
+                            <img src="./Assets/Kambalakonda.png" alt="">
+                            <h6>
+                                Zonal Developmental Plan for Kambalakonda Eco-Sensitive Zone (ESZ), Andhra Pradesh.
+                            </h6>
+                            <p id="redi-port">
+                                Design of a zonal development plan for the 31 sq km Kambalakonda ESZ integrating ecological conservation, 
+                                land use zoning, and sustainable planning principles to protect sensitive environments.
+                            </p>
+                        </div>
+
+                        <!-- Hidden Projects -->
+                        <div id="more-projects" style="display: none;">
+                            
+                            <div class="mp-card-element">
+                                <img src="./Assets/Bulk Drug Park.png" alt="">
+                                <h6>Development of Andhra Pradesh Bulk Drug Park, Anakapalli District, Andhra Pradesh.</h6>
+                                <p>Design of a development plan for the Andhra Pradesh Bulk Drug Park integrating industrial 
+                                land use planning, infrastructure development, and efficient logistics to support large-scale pharmaceutical production.</p>
+                            </div>
+
+                            <div class="mp-card-element">
+                                <img src="./Assets/Rushikonda.png" alt="">
+                                <h6>Development of Star hotel cum Resorts and Commercial Complex at Rushikonda, Visakhapatnam District.</h6>
+                                <p>Design of a development plan for a star hotel, resort, and commercial complex at Rushikonda integrating mixed-use planning, infrastructure efficiency, and sustainable tourism development.</p>
+                            </div>
+
+                            <div class="mp-card-element">
+                                <img src="./Assets/Vadhavan Airport.png" alt="">
+                                <h6>Environmental Siting Criteria for Development of Vadhavan Airport, Palghar District, Maharashtra.</h6>
+                                <p>Preparation of environmental siting criteria for Vadhavan Airport integrating site suitability analysis, environmental constraints assessment, 
+                                    and sustainable planning principles for infrastructure development.</p>
+                            </div>
+
+                            <div class="mp-card-element">
+                                <img src="./Assets/Papayyapalem.png" alt="">
+                                <h6>Development of Beach resorts at Papayyapalem Bapatla District, Andhra Pradesh.</h6>
+                                <p>Design of a development plan for beach resorts at Papayyapalem, Bapatla District integrating coastal land use planning, 
+                                    tourism infrastructure, and sustainable development strategies.</p>
+                            </div>
+
+                            <div class="mp-card-element">
+                                <img src="./Assets/Wellness Retreat.jpg" alt="">
+                                <h6>Development of LA VIE Wellness Retreat, near Vikarabad, Telangana.</h6>
+                                <p> 
+                                Design of a development plan for LA VIE Wellness Retreat near Vikarabad integrating sustainable land use planning, 
+                                landscape-sensitive design, and infrastructure to promote wellness and eco-friendly development.
+                                </p>
+                            </div>
+
+
+                            <div class="mp-card-element">
+                                <img src="./Assets/Nagarjuna Sagar Airport.png" alt="">
+                                <h6>Spatial Suitability Analysis for Proposed Nagarjuna Sagar Airport, Telangana.</h6>
+                                <p>Spatial suitability analysis for the proposed Nagarjuna Sagar Airport integrating GIS-based land suitability assessment, 
+                                    constraint analysis, and infrastructure planning for optimal site selection.</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="see-more-container">
+                        <button id="seeMoreBtn" class="btn btn-success">See More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------Portfolio---------------->
+
+            <div id="portfolio">
+                <div class="portfolio-container">
+                    <h1 class="skill-sub-title">Portfolio</h1>
+                    <div class="pf-card-container">
+                        <div class="pf-card-element">
+                            <div class="pf-nd-image" style="background-image: url('./Assets/Hills.png');">
+                                <div class="pf-overlay">
+                                    <h4>Preparation of Concept Master Plan and Layout Approval for Hill-2, Hill-3 and WTC Panorama hill
+                                    Visakhapatnam District, Andhra Pradesh.</h4>
+                                    <a href="#" class="btn-view" target="_blank">View Map</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pf-card-element">
+                            <div class="pf2-nd-image" style="background-image: url('./Assets/Redi Port.png');">
+                                <div class="pf-overlay">
+                                    <h4>Masterplan of Redi Port, Sindhudurg District, Maharashtra.</h4>
+                                    <a href="#" class="btn-view" target="_blank">View Map</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pf-card-element">
+                            <div class="pf3-nd-image" style="background-image: url('./Assets/Kambalakonda.png');">
+                                <div class="pf-overlay">
+                                    <h4>Zonal Developmental Plan for Kambalakonda Eco-Sensitive Zone (ESZ), Andhra Pradesh.</h4>
+                                    <a href="#" class="btn-view" target="_blank">View Map</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pf-card-element">
+                            <div class="pf4-nd-image" style="background-image: url('./Assets/Nagarjuna\ Sagar\ Airport.png');">
+                                <div class="pf-overlay">
+                                    <h4>Spatial Suitability Analysis for Proposed Nagarjuna Sagar Airport, Telangana.</h4>
+                                    <a href="http://127.0.0.1:5500/Nagarjuna%20Sagar/index.html" class="btn-view" target="_blank">View Map</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pf-card-element">
+                            <div class="pf4-nd-image" style="background-image: url('./Assets/Portfolio\ Page\ 2.png');">
+                                <div class="pf-overlay">
+                                    <h4>My Portfolio Page – Frontend JavaScript Project</h4>
+                                    <a href="#" class="btn-view web-button" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pf-card-element">
+                            <div class="pf4-nd-image" style="background-image: url('./Assets/Symon\ says\ game.png');">
+                                <div class="pf-overlay">
+                                    <h4>Simon Says Game – Frontend JavaScript Project</h4>
+                                    <a href="https://github.com/krishnaprasadsantra/Simon-Says-Game" target="_blank" class="btn-view web-button"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pf-card-element">
+                            <div class="pf4-nd-image" style="background-image: url('./Assets/Spotify.png');">
+                                <div class="pf-overlay">
+                                    <h4>Spotify Clone – Frontend UI Project</h4>
+                                    <a href="https://github.com/krishnaprasadsantra/WebPage-Development-Project" target="_blank" class="btn-view web-button"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    
+
+            <!---------------Client---------------->
+
+            <div id="client">
+                <div class="client-container">
+                    <h1 class="skill-sub-title">Clients</h1>
+
+                    <div class="client-grid">
+                    <div class="client-card"><img src="./Assets/C1.png" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C2.png" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C3.jpeg" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C4.jpeg" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C5.png" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C6.png" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C7.jpeg" alt=""></div>
+                    <div class="client-card"><img src="./Assets/C8.jpeg" alt="" style="height: 170px; width: 170px;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!----------------Contact---------------->
+            <div id="contact">
+                <div class="contact-container">
+                    <h1 class="skill-sub-title">Contact</h1>
+                    <div class="row">
+                        <div class="contact-left">
+                            <p><i class="fa-solid fa-envelope email"></i> krishnaprasadsantra2018@gmail.com</p>
+                            <p><i class="fa-solid fa-phone phone"></i> 8116552287</p>
+                            <div class="social-icon">
+                                <a class="facebook" href="https://www.facebook.com/krishnaprasad.santra.7" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a class="twitter" href="https://x.com/Krishna_06_ps" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="instagram" href="https://www.instagram.com/krishna_06_ps?fbclid=IwY2xjawQvpPRleHRuA2FlbQIxMABicmlkETBGZW9rZlZZMThxSUd4T2dYc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHuO0_ikcJt9JitkjhmoqR722ORyEogjqmQbWgQQzwS0SU9slz0__1xPNSl9T_aem_YT0Jm-3KlZlWoahAyIzvNw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a class="linkedin" href="https://www.linkedin.com/in/krishna-prasad-santra-5089682aa/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form id="contact-form" name="Sheet1">
+                                <input type="text" name="name" placeholder="Your name" required>
+                                <input type="email" name="email" placeholder="Your email" required>
+                                <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                                <input type="text" name="website" style="display:none">
+                                <button type="submit">Submit</button>
+                            </form>
+
+                            <p id="response-msg"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <p class="footer">&copy; 2026 | Made with <span style="color: red;">&hearts;</span> by Krishna | Geospatial and Urban Planning Portfolio</p>
+
+        <script src="App.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
